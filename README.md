@@ -3,7 +3,7 @@ I. Purpose: To alter a file remotely
 
 II. Method: Mounts a remote directory, edits a file, passes changes through a convertor for mac to windows, deletes any detritus and unmounts the directory
 
-A. Variables: USER, NOW
+A. Variables: USER, SCRIPT, IP, SHARE, CHECKFILE, WRITEFILEA, WRITEFILEB, NOW 
 
 B. Used: SED to pass mac text to pc, READ to prompt for data to be used as variables in the script
 
